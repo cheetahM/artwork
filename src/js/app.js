@@ -1,0 +1,17 @@
+const ce = React.createElement;
+const MyTitle = function(props) {
+  return ce('div', null, ce('h1', { style: { color: props.color } }, props.title));
+};
+const MyFirstComponent = function() {
+  return ce(
+    'div',
+    { id: 'my-first-component' },
+    ce(MyTitle, { title: 'Game of Thrones', color: 'GreenYellow' }),
+    ce(MyTitle, { title: 'Stranger Things', color: 'LimeGreen' }),
+    ce(MyTitle, { title: 'Breaking Bad', color: 'Lime' }),
+    ce(MyTitle, { title: 'Californication', color: 'YellowGreen' }),
+    ce(MyTitle, { title: 'Algorithms', color: 'peru' })
+  );
+};
+
+ReactDOM.render(ce(MyFirstComponent), document.getElementById('app'));
