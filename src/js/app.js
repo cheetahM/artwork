@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const ce = React.createElement;
-const MyTitle = function (props) {
+const MyTitle = function(props) {
   return ce('div', null, ce('h1', { style: { color: props.color } }, props.title));
 };
-const MyFirstComponent = function () {
+const MyFirstComponent = function() {
   return ce(
     'div',
     { id: 'my-first-component' },
@@ -13,7 +13,7 @@ const MyFirstComponent = function () {
     ce(MyTitle, { title: 'Stranger Things', color: 'LimeGreen' }),
     ce(MyTitle, { title: 'Breaking Bad', color: 'Lime' }),
     ce(MyTitle, { title: 'Californication', color: 'YellowGreen' }),
-    ce(MyTitle, { title: 'Algorithms', color: 'peru' }),
+    ce(MyTitle, { title: 'Algorithms', color: 'peru' })
   );
 };
 

@@ -1,4 +1,7 @@
 {
+    "plugins": [
+        "prettier"
+    ],
     "parser": "esprima",
     "parserOptions": {
         "ecmaVersion": 2016,
