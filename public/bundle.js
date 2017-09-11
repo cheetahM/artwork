@@ -9526,15 +9526,29 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-var ce = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement;
-var MyTitle = function MyTitle(props) {
-  return ce('div', null, ce('h1', { style: { color: props.color } }, props.title));
-};
-var MyFirstComponent = function MyFirstComponent() {
-  return ce('div', { id: 'my-first-component' }, ce(MyTitle, { title: 'Game of Thrones', color: 'GreenYellow' }), ce(MyTitle, { title: 'Stranger Things', color: 'LimeGreen' }), ce(MyTitle, { title: 'Breaking Bad', color: 'Lime' }), ce(MyTitle, { title: 'Californication', color: 'YellowGreen' }), ce(MyTitle, { title: 'Algorithms magic!!', color: 'peru' }));
+var App = function App() {
+    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "div",
+        { className: "app" },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "div",
+            { className: "landing" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "h1",
+                null,
+                "Bash's Netflix Lounge"
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", { type: "text", placeholder: "Search Movie" }),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "a",
+                null,
+                "or Browse All"
+            )
+        )
+    );
 };
 
-__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_react_dom__["render"])(ce(MyFirstComponent), document.getElementById('app'));
+__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_react_dom__["render"])(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(App, null), document.getElementById("app"));
 
 /***/ }),
 /* 81 */
