@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 
 const ce = React.createElement;
 const MyTitle = function(props) {
@@ -13,8 +13,8 @@ const MyFirstComponent = function() {
     ce(MyTitle, { title: 'Stranger Things', color: 'LimeGreen' }),
     ce(MyTitle, { title: 'Breaking Bad', color: 'Lime' }),
     ce(MyTitle, { title: 'Californication', color: 'YellowGreen' }),
-    ce(MyTitle, { title: 'Algorithms', color: 'peru' })
+    ce(MyTitle, { title: 'Algorithms magic!!', color: 'peru' })
   );
 };
 
-ReactDOM.render(ce(MyFirstComponent), document.getElementById('app'));
+render(ce(MyFirstComponent), document.getElementById('app'));
