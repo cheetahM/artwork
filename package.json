@@ -8,8 +8,13 @@
     "dev": "webpack-dev-server",
     "format": "prettier --write --print-width=120 --parser=flow --tab-width=2 'src/js/**/*.js'",
     "lint": "eslint **/*.js --quiet",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "test:update": "jest -u",
+    "test:coverage": "jest --coverage",
     "watch": "webpack --watch"
+  },
+  "jest": {
+    "snapshotSerializers": ["jest-serializer-enzyme"]
   },
   "repository": {
     "type": "git",

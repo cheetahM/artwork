@@ -11550,9 +11550,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 var FourOhFour = function FourOhFour() {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    'h1',
+    "h1",
     null,
-    '404'
+    "404"
   );
 };
 
@@ -11561,20 +11561,20 @@ var App = function App() {
     __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* BrowserRouter */],
     null,
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'div',
-      { className: 'app' },
+      "div",
+      { className: "app" },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Switch */],
         null,
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_router_dom__["c" /* Route */], { exact: true, path: '/', component: __WEBPACK_IMPORTED_MODULE_3__Home__["a" /* default */] }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_router_dom__["c" /* Route */], { path: '/search', component: __WEBPACK_IMPORTED_MODULE_4__Search__["a" /* default */] }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_router_dom__["c" /* Route */], { exact: true, path: "/", component: __WEBPACK_IMPORTED_MODULE_3__Home__["a" /* default */] }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_router_dom__["c" /* Route */], { path: "/search", component: __WEBPACK_IMPORTED_MODULE_4__Search__["a" /* default */] }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_router_dom__["c" /* Route */], { component: FourOhFour })
       )
     )
   );
 };
 
-__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_react_dom__["render"])(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(App, null), document.getElementById('app'));
+__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_react_dom__["render"])(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(App, null), document.getElementById("app"));
 
 /***/ }),
 /* 102 */
@@ -11621,8 +11621,8 @@ var Home = function Home() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_styled_components__ = __webpack_require__(233);
-var _templateObject = _taggedTemplateLiteralLoose(['\n  width: 32%;\n  border: 2px solid #333;\n  border-radius: 4px;\n  margin-bottom: 25px;\n  padding-right: 10px;\n  overflow: hidden;\n  text-decoration: none;\n  color: black;\n'], ['\n  width: 32%;\n  border: 2px solid #333;\n  border-radius: 4px;\n  margin-bottom: 25px;\n  padding-right: 10px;\n  overflow: hidden;\n  text-decoration: none;\n  color: black;\n']),
-    _templateObject2 = _taggedTemplateLiteralLoose(['\n  width: 46%;\n  float: left;\n  margin-right: 10px;\n'], ['\n  width: 46%;\n  float: left;\n  margin-right: 10px;\n']);
+var _templateObject = _taggedTemplateLiteralLoose(["\n  width: 32%;\n  border: 2px solid #333;\n  border-radius: 4px;\n  margin-bottom: 25px;\n  padding-right: 10px;\n  overflow: hidden;\n  text-decoration: none;\n  color: black;\n"], ["\n  width: 32%;\n  border: 2px solid #333;\n  border-radius: 4px;\n  margin-bottom: 25px;\n  padding-right: 10px;\n  overflow: hidden;\n  text-decoration: none;\n  color: black;\n"]),
+    _templateObject2 = _taggedTemplateLiteralLoose(["\n  width: 46%;\n  float: left;\n  margin-right: 10px;\n"], ["\n  width: 46%;\n  float: left;\n  margin-right: 10px;\n"]);
 
 function _taggedTemplateLiteralLoose(strings, raw) { strings.raw = raw; return strings; }
 
@@ -11638,22 +11638,27 @@ var Image = __WEBPACK_IMPORTED_MODULE_2_styled_components__["a" /* default */].i
 var MovieCard = function MovieCard(props) {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     Wrapper,
-    { className: 'show-card' },
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(Image, { alt: props.movieName + ' movie Poster', src: props.thumbnailUrl }),
+    { className: "show-card" },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(Image, { alt: props.movieName + " movie Poster", src: props.thumbnailUrl }),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'div',
+      "div",
       null,
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'h3',
+        "h3",
         null,
         props.movieName
       ),
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'h4',
+        "h4",
         null,
-        '(',
+        "(",
         props.languageCode,
-        ')'
+        ")"
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "p",
+        null,
+        "yolo"
       )
     )
   );
@@ -11676,6 +11681,8 @@ MovieCard.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__payload_json__ = __webpack_require__(236);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__payload_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__payload_json__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__MovieCard__ = __webpack_require__(103);
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -11687,39 +11694,59 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 var Search = function (_Component) {
-    _inherits(Search, _Component);
+  _inherits(Search, _Component);
 
-    function Search() {
-        _classCallCheck(this, Search);
+  function Search(props) {
+    _classCallCheck(this, Search);
 
-        return _possibleConstructorReturn(this, _Component.apply(this, arguments));
-    }
+    var _this = _possibleConstructorReturn(this, _Component.call(this, props));
 
-    Search.prototype.render = function render() {
-        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            { className: 'search' },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'header',
-                null,
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'h1',
-                    null,
-                    'Bash\'s netflix Lounge'
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', placeholder: 'Search' })
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                null,
-                __WEBPACK_IMPORTED_MODULE_1__payload_json___default.a.map(function (movie) {
-                    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__MovieCard__["a" /* default */], movie);
-                })
-            )
-        );
+    _this.handleSearchMovieChange = function (event) {
+      _this.setState({ searchMovie: event.target.value });
     };
 
-    return Search;
+    _this.state = {
+      searchMovie: ""
+    };
+
+    _this.handleSearchMovieChange = _this.handleSearchMovieChange.bind(_this);
+    return _this;
+  }
+
+  Search.prototype.render = function render() {
+    var _this2 = this;
+
+    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      "div",
+      { className: "search" },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "header",
+        null,
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "h1",
+          null,
+          "Bash's netflix Lounge"
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
+          onChange: this.handleSearchMovieChange,
+          value: this.state.searchMovie,
+          type: "text",
+          placeholder: "Search"
+        })
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "div",
+        null,
+        __WEBPACK_IMPORTED_MODULE_1__payload_json___default.a.filter(function (movie) {
+          return (movie.movieId + " " + movie.languageCode).toUpperCase().indexOf(_this2.state.searchMovie.toUpperCase()) >= 0;
+        }).map(function (movie) {
+          return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__MovieCard__["a" /* default */], _extends({ key: movie.thumbnailUrl }, movie));
+        })
+      )
+    );
+  };
+
+  return Search;
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
 /* harmony default export */ __webpack_exports__["a"] = (Search);

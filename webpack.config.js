@@ -3,7 +3,12 @@ const webpack = require('webpack');
 
 const config = {
   context: __dirname,
-  entry: ['./src/js/App.js'],
+  entry: [
+    "react-hot-loader/patch",
+    "webpack-dev-server/client?http://localhost:8080",
+    "webpack/hot/only-dev-server",
+    "./src/js/MovieApp.js"
+  ],
   devtool: process.env.NODE_ENV === 'development' ? 'cheap-eval-source-map' : false,
   output: {
     path: path.resolve(__dirname, 'public'),
@@ -11,6 +16,7 @@ const config = {
     publicPath: '/public/'
   },
   devServer: {
+    hot: true,
     publicPath: "/public/",
     historyApiFallback: true
   },
@@ -22,6 +28,10 @@ const config = {
     reasons: true,
     chunks: false
   },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NamedModulesPlugin()
+  ],
   module: {
     rules: [
       {

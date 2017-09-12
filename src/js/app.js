@@ -1,5 +1,4 @@
 import React from "react";
-import { render } from "react-dom";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./Home";
 import Search from "./Search";
@@ -18,4 +17,4 @@ const App = () => (
   </BrowserRouter>
 );
 
-render(<App />, document.getElementById("app"));
+export default App;
