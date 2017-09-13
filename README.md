@@ -45,8 +45,7 @@ $ npm run api
 
 #### Access App and Data
 * [Netflix](http://localhost:8080/) app
-* [Netflix Lounge App](http://localhost:8080/)
-* [Movie Data Response](http://localhost:3000/api/movies)
+* [Data](http://localhost:3000/api/movies) response
 
 #### Tools and Tech stack Used
 * Prettier
