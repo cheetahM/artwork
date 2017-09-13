@@ -35,6 +35,10 @@ $ npm dev start
 $ npm run api
 ```
 
+##### Sample use cases
+* Search for `languageCode` as `es`
+* Search for `movieId` as `70242311`
+
 #### Dependencies
 * node.js 6+
 * NPM or Yarn
@@ -69,10 +73,6 @@ $ npm run api
     - run the unit tests
 * npm test:coverage
     - to generate code coverage
-
-##### sample use cases
-* Search for `languageCode` as `es`
-* Search for `movieId` as `70242311`
 
 
 Note: This app is primarily tested on chrome
