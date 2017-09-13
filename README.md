@@ -70,5 +70,9 @@ $ npm run api
 * npm test:coverage
     - to generate code coverage
 
+##### sample use cases
+* Search for `languageCode` as `es`
+* Search for `movieId` as `70242311`
+
 
 Note: This app is primarily tested on chrome
