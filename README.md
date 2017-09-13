@@ -24,3 +24,9 @@ Click [here](https://github.com/cheetahM/artwork/archive/master.zip) then downlo
 	> npm run dev
     > npm run api
 ```
+
+#### Dependencies
+node.js 6+
+NPM or Yarn
+
+#### Tools Used
