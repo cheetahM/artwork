@@ -10,10 +10,7 @@ Checkout this repo, install dependencies, then start with the following steps:
 
 ```
 	> git clone https://github.com/cheetahM/artwork.git
-	> cd artwork
-	> npm install
-	> npm run dev
-    > npm run api
+    > cd artwork
 
 ```
 
