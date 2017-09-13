@@ -39,4 +39,36 @@ $ npm run api
 * node.js 6+
 * NPM or Yarn
 
-#### Tools Used
+#### Access App and Data
+* [Netflix Lounge App] (http://localhost:8080/)
+* [Movie Data Response] (http://localhost:3000/api/movies)
+
+#### Tools and Tech stack Used
+* Prettier
+* npm/Yarn scripts
+* ESLint
+* Webpack and Babel
+* JSX
+* React
+* Redux
+* Redux Thunk
+* React Router
+* styled-components
+* Flow: types in Js
+* Jest, Snapshots and Enzyme for testing
+* Istanbul for code coverage
+* Hot module reload
+
+#### scripts
+* npm run dev
+    - starts the app
+* npm run api
+    - run this in new tab of your terminal
+* npm run watch
+* npm test
+    - run the unit tests
+* npm test:coverage
+    - to generate code coverage
+
+
+Note: This app is primarily tested on chrome
