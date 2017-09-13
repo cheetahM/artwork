@@ -4,17 +4,9 @@ exports[`Search renders correctly 1`] = `
 <div
   className="search"
 >
-  <header>
-    <h1>
-      Bash's netflix Lounge
-    </h1>
-    <input
-      onChange={[Function]}
-      placeholder="Search"
-      type="text"
-      value=""
-    />
-  </header>
+  <Connect(Header)
+    movieSearch={true}
+  />
   <div>
     <MovieCard
       fullSizeImageUrl="http://art.nflximg.net/78bc7/198343ed941f178d54878aa366a122e4e2e78bc7.jpg"

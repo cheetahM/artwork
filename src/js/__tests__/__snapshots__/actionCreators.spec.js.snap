@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`addAPIData 1`] = `
+Object {
+  "payload": Object {
+    "fullSizeImageUrl": "http://art.nflximg.net/934f7/e76e738da86e04d9c388605789211d6a883934f7.jpg",
+    "imageType": "sdp",
+    "languageCode": "de",
+    "movieId": 70242311,
+    "movieName": "Orange Is the New Black",
+    "thumbnailUrl": "http://art.nflximg.net/304d2/7da9da4ea90c6df7889b67137cb64737e65304d2.jpg",
+  },
+  "type": "ADD_API_DATA",
+}
+`;
+
+exports[`setSearchMovie 1`] = `
+Object {
+  "payload": "en",
+  "type": "SET_SEARCH_MOVIE",
+}
+`;
