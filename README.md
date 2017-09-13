@@ -14,6 +14,7 @@ Checkout this repo, install dependencies, then start with the following steps:
 	> npm install
 	> npm run dev
     > npm run api
+
 ```
 
 ####Not Familiar with Git?#####
@@ -23,6 +24,7 @@ Click [here](https://github.com/cheetahM/artwork/archive/master.zip) then downlo
 	> npm install
 	> npm run dev
     > npm run api
+
 ```
 
 #### Dependencies
