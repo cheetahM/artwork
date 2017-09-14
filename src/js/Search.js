@@ -5,6 +5,7 @@ import { connect } from "react-redux";
 import Header from "./Header";
 import MovieCard from "./MovieCard";
 
+// eslint-disable-next-line react/no-unused-prop-types
 const Search = (props: { searchMovie: string, movies: Array<Movie> }) => (
   <div className="search">
     <Header movieSearch />
