@@ -31,7 +31,7 @@ Click [here](https://github.com/cheetahM/artwork/archive/master.zip) then downlo
 $ npm install
 
 # Run the app
-$ npm dev start
+$ npm start 
 $ npm run api
 ```
 
